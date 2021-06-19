@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "HomesiteFinal">
+    <test name = "regression">
+        <classes>
+            <class name ="Test2.AboutPageTest"/>
+                <class name ="Test2.basicPageTest"/>
+            <class name = "Test2.HomePageTest"/>
+            <class name = "Test2.ExteriorPageTest">
+            </class>
+        </classes>
+    </test>
+</suite>
